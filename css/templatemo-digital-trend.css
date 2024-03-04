@@ -662,6 +662,11 @@
       position: relative; 
       top: 0em;
     }
+
+    .navbar-logo {
+      height: 10vh;
+      width: auto;
+    }
     /* testing */
 
     .hero-text {
