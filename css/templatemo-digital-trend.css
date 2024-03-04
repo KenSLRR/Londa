@@ -29,7 +29,7 @@
     --white-color:          #ffffff;
     --dark-color:           #171819;
     --project-bg:           #f0f8ff;
-    --menu-bg:              #000000be;
+    --menu-bg:              #000000da;
 
     --title-color:          #15141a;
     --gray-color:           #909090;
@@ -484,6 +484,7 @@
     align-items: center;
     justify-content: center;
   }
+
   /*---------------------------------------
       BLOG            
   -----------------------------------------*/
@@ -632,9 +633,6 @@
     .about-info h2 {
       max-width: 70%;
     }
-    .hero {
-      padding-top: 2em;
-    }
   }
 
   @media screen and (min-width: 991px) {
@@ -648,8 +646,22 @@
   @media screen and (max-width: 991px) {
 
     .hero {
-      padding-top: 4em;
+      padding-top: 10em;
     }
+
+    /* testing */
+    .hero-bg {
+      /* background: linear-gradient(170deg, var(--primary-color) 64%, var(--white-color) 30%); */
+      /* background: linear-gradient(170deg, url('../images/project/project-image04.jpg') 64%, var(--white-color) 30%); */
+      background: linear-gradient(170deg, rgba(0, 0, 0, 0.5) 64%, rgba(255, 255, 255, 0.3) 30%), url('../images/Flutlicht.jpg');
+      background-size:auto;
+    }
+  
+    .hero-image {
+      position: relative; 
+      top: 0em;
+    }
+    /* testing */
 
     .hero-text {
       bottom: 2em;
