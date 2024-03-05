@@ -644,6 +644,10 @@
       max-width: 32%;
       margin: 0 auto;
     }
+
+    .mt-lg-3 {
+      margin-top: 3rem !important; /* !important wird verwendet, um sicherzustellen, dass diese Regel vorrangig ist */
+    }
   }
 
   @media screen and (max-width: 991px) {
