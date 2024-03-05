@@ -486,6 +486,19 @@
   }
 
   /*---------------------------------------
+      Instagram            
+  -----------------------------------------*/
+  .instagram-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .instagram-header {
+    text-align: center;
+  }
+
+  /*---------------------------------------
       BLOG            
   -----------------------------------------*/
 
